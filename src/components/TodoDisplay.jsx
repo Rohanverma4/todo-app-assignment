@@ -60,8 +60,8 @@ export const TodoDisplay = () => {
             <div className='allTodosDiv'>
                 <div className='headTodoDiv'>
                     <h6 className='Task'>Task</h6>
-                    <h6>Time</h6>
                     <h6>Date</h6>
+                    <h6>Time</h6>
                     <h6>Actions</h6>
                 </div>
                 {data1?.filtertodo &&
