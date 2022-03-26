@@ -39,6 +39,7 @@ export const TodoInput = ({fetchData}) => {
             // console.log(res.data)
             dispatch(addTodo(res.data))
             fetchData()
+            window.location.reload();
         })
     }
     // console.log(taskData)
