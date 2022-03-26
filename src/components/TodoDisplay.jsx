@@ -36,6 +36,10 @@ export const TodoDisplay = () => {
     }
 
     const searchTask1 = () => {
+        if (!searchTask){
+            alert ("Please select a task for searching")
+            return;
+        }
         dispatch(searchTodo(searchTask))
     }
     return (
