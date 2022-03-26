@@ -1,0 +1,131 @@
+.displayContainer {
+    width: 65%;
+    height: 27rem;
+    background-color: rgb(242, 191, 247);
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    /* justify-content: space-around; */
+}
+
+.topDiv {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    height: 3.5rem;
+    display: flex;
+}
+
+.searchDiv{
+    /* background-color: azure; */
+    justify-content: space-around;
+    display: flex;
+    width: 45%;
+    align-items: center;
+}
+
+.searchDiv > input {
+    height: 1.6rem;
+    width: 60%;
+    border: none;
+    border-radius:5px;
+}
+.searchDiv > button {
+    height: 1.8rem;
+    width: 22%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #72ca97;
+}
+
+.filterDiv{
+    display: flex;
+    width: 34%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filterDiv > button {
+    height: 1.8rem;
+    width: 32%;
+    border-radius: 5px;
+    border: none;
+    /* color: white; */
+    /* background-color: red */
+}
+
+.all {
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+.com{
+    background-color: rgb(164, 140, 252);
+    /* font-weight: bold; */
+    color: white;
+}
+.incom{
+    background-color: rgb(250, 61, 61);
+    color: white;
+}
+
+.allTodosDiv {
+    width: 85%;
+    /* height: 18rem; */
+    
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.headTodoDiv{
+    
+    display: flex;
+    height: 2.5rem;
+}
+
+.headTodoDiv > h6{
+    margin-top: 0.3rem;
+    /* margin-right:15%; */
+    width: 18%;
+}
+.headTodoDiv > .Task {
+    width: 40%;
+}
+.singleTodoDiv{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 2.5rem;
+    align-items: center;
+    
+}
+
+.singleTodoDiv > p{
+    font-size: 1.2rem;
+    
+    width: 18%;
+}
+
+.singleTodoDiv > .task {
+    width: 40%;
+    margin-left: 1rem;
+}
+
+.buttonDiv {
+    /* border: 1px solid red; */
+    width: 25%;
+    height: 1.8rem;
+    display: flex;
+}
+.buttonDiv>button {
+    height: 1.6rem;
+    width: 42%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: red;
+    margin-top: 0px;
+    margin-right: 0.5rem;
+}
